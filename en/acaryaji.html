@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Biography and publications of Ācārya Sthaneshwar Timalsina, teacher of the Sarvāmnāya lineage.">
+<title>Ācārya Sthaneshwar Timalsina · Śaiva-Śākta Community</title>
+<link rel="alternate" hreflang="es" href="https://circulo-vimarsha.github.io/web/acaryaji.html">
+<link rel="alternate" hreflang="en" href="https://circulo-vimarsha.github.io/web/en/acaryaji.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Source+Sans+3:wght@400;600&family=Tiro+Devanagari+Sanskrit&display=swap">
+<style>
+/* Layout: an academic department page; masthead with seal and nav, then label-left / content-right sections and a citation list */
+:root{
+  --paper:#ffffff; --tint:#f6f3ef; --ink:#1d1c1f; --muted:#56535a; --accent:#7b1e2b; --line:#ddd7cf;
+  --serif:"Source Serif 4","Iowan Old Style",Georgia,"Times New Roman",serif;
+  --sans:"Source Sans 3","Segoe UI",system-ui,sans-serif;
+  --dev:"Tiro Devanagari Sanskrit","Noto Serif Devanagari","Kohinoor Devanagari",serif;
+  color-scheme:light;
+}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{background:var(--paper);color:var(--ink);font-family:var(--serif);font-size:17px;line-height:1.65;border-top:5px solid var(--accent)}
+.gut{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.wrap{max-width:980px;margin:0 auto}
+.mast{border-bottom:1px solid var(--line)}
+.mast .wrap{display:flex;align-items:center;gap:18px;padding-block:26px 22px}
+.mast svg{width:58px;height:58px;flex:none}
+.mast .kicker{font-family:var(--sans);font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);font-weight:600}
+h1{margin:2px 0 0;font-weight:600;font-size:clamp(22px,2.9vw,32px);line-height:1.2;text-wrap:balance;max-width:none}
+h1 .nw,.sub .nw{white-space:nowrap}
+.mast .sub{font-family:var(--sans);font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-weight:600;margin-top:6px}
+@media (max-width:560px){h1 .nw{white-space:normal}}
+nav{border-bottom:1px solid var(--line);background:var(--tint)}
+nav .wrap{display:flex;flex-wrap:wrap;gap:4px 26px;padding-block:10px}
+nav a{font-family:var(--sans);font-size:14px;font-weight:600;color:var(--ink);text-decoration:none;padding:4px 0;border-bottom:2px solid transparent}
+nav a:hover{border-bottom-color:var(--accent);color:var(--accent)}
+nav a.lang{margin-left:auto;font-weight:500;color:var(--muted)}
+main .wrap{padding-block:12px 64px}
+section{display:grid;grid-template-columns:200px minmax(0,1fr);gap:24px;padding-block:34px;border-bottom:1px solid var(--line);scroll-margin-top:12px}
+section:last-of-type{border-bottom:0}
+@media (max-width:720px){section{grid-template-columns:minmax(0,1fr);gap:10px;padding-block:26px}}
+h2{margin:0;font-family:var(--sans);font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:600;padding-top:5px}
+.body{display:flex;flex-direction:column;gap:14px;min-width:0}
+p{margin:0;max-width:68ch}
+.lead{font-size:20px;line-height:1.55}
+.acts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;border:1px solid var(--line)}
+@media (max-width:720px){.acts{grid-template-columns:minmax(0,1fr)}}
+.act{padding:18px;display:flex;flex-direction:column;gap:6px;min-width:0}
+.act+.act{border-left:1px solid var(--line)}
+@media (max-width:720px){.act+.act{border-left:0;border-top:1px solid var(--line)}}
+.act h3{margin:0;font-size:18px;font-weight:600}
+.act p{font-size:15.5px;color:var(--muted)}
+.lines{margin:0;display:grid;grid-template-columns:220px minmax(0,1fr);border-top:1px solid var(--line)}
+.lines dt,.lines dd{margin:0;padding:12px 0;border-bottom:1px solid var(--line)}
+.lines dt{font-weight:600;padding-right:16px}
+.lines dd{color:var(--muted)}
+.lines dt:last-of-type,.lines dd:last-of-type{border-bottom:0}
+.lin{display:block}
+.lin .side > img{width:150px;height:150px;object-fit:cover;display:block;border:1px solid var(--line)}
+.lin .side{display:flex;flex-direction:column;gap:14px;min-width:0}
+.lin .txt{display:flex;flex-direction:column;gap:14px;min-width:0}
+@media (max-width:640px){.lin{grid-template-columns:minmax(0,1fr);gap:16px}.lin .side > img{width:100%;max-width:360px;height:auto;aspect-ratio:1/1}}
+@media (max-width:560px){.lines{grid-template-columns:minmax(0,1fr)}.lines dt{border-bottom:0;padding-bottom:0}.lines dd{padding-top:2px}}
+.act .st{font-family:var(--sans);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:600;margin-top:auto}
+h4{margin:6px 0 0;font-family:var(--sans);font-size:14px;font-weight:600;color:var(--muted);letter-spacing:.04em}
+a{color:var(--accent);text-decoration-thickness:1px;text-underline-offset:3px}
+a:hover{color:#5a1520}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.texts{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.texts li{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;padding:10px 0;border-top:1px solid var(--line)}
+.texts li:last-child{border-bottom:1px solid var(--line)}
+.texts i{font-style:italic}
+.texts span{font-family:var(--dev);color:var(--muted)}
+.mat{border:1px solid var(--line);padding:22px;display:flex;flex-direction:column;gap:12px;background:var(--paper)}
+.mat h3{margin:0;font-size:20px;font-weight:600;line-height:1.3}
+.mat-meta{font-family:var(--sans);font-size:13.5px;color:var(--muted);margin-top:4px}
+.dl{display:flex;flex-wrap:wrap;gap:10px;margin-top:4px}
+.btn{font-family:var(--sans);font-size:14.5px;font-weight:600;text-decoration:none;padding:10px 16px;min-height:44px;display:inline-flex;align-items:center;border:1px solid var(--accent);background:var(--accent);color:#fff;border-radius:2px}
+.btn:hover{background:#5a1520;color:#fff}
+.btn.ghost{background:transparent;color:var(--accent)}
+.btn.ghost:hover{background:var(--tint);color:var(--accent)}
+.dl-msg{font-family:var(--sans);font-size:13.5px;color:var(--muted);min-height:1.2em}
+.ph{color:var(--accent);border-bottom:1px dashed var(--accent)}
+main p,main dd,main li,main blockquote{text-align:justify;hyphens:auto;-webkit-hyphens:auto}
+footer{border-top:1px solid var(--line);background:var(--tint)}
+footer .wrap{padding-block:22px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 24px;font-family:var(--sans);font-size:13.5px;color:var(--muted)}
+
+.mast a.home{color:inherit;text-decoration:none}
+.mast .title{margin:2px 0 0;font-weight:600;font-size:clamp(22px,2.9vw,32px);line-height:1.2;text-wrap:balance}
+.mast .title .nw{white-space:nowrap}
+@media (max-width:560px){.mast .title .nw{white-space:normal}}
+.post{max-width:700px;padding-block:40px 24px}
+.post .meta,.bl .meta{font-family:var(--sans);font-size:12.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:600}
+.post h1{font-size:clamp(28px,4.2vw,40px);line-height:1.15;margin:10px 0 22px;text-wrap:balance}
+.post .intro{font-size:19px;line-height:1.55;color:var(--muted);margin-bottom:26px}
+.post h2{font-family:var(--serif);font-size:23px;letter-spacing:0;text-transform:none;color:var(--ink);font-weight:600;padding-top:0;margin:34px 0 12px}
+.post p{margin:0 0 16px}
+.post blockquote{margin:24px 0;padding:2px 0 2px 20px;border-left:2px solid var(--accent);font-size:20px;line-height:1.5}
+.post .lines{margin:6px 0 20px}
+.post .box{margin-top:40px;padding-top:22px;border-top:1px solid var(--line);display:flex;flex-direction:column;gap:12px}
+.post .box h2{margin:0;font-family:var(--sans);font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+.post .box p,.post .box li{font-family:var(--sans);font-size:15px;color:var(--muted);margin:0}
+.post .box ul{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:6px}
+.post .gl{display:grid;grid-template-columns:minmax(0,max-content) minmax(0,1fr);gap:4px 18px;font-family:var(--sans);font-size:15px;margin:0}
+.post .gl dt{font-family:var(--serif);font-style:italic}
+.post .gl dd{margin:0;color:var(--muted)}
+.post .pfig{margin:0 0 30px}
+.post .pfig img{display:block;width:100%;height:auto;max-height:560px;object-fit:contain;background:var(--tint);border:1px solid var(--line)}
+.post .pfig figcaption{font-family:var(--sans);font-size:13.5px;color:var(--muted);margin-top:8px;line-height:1.45}
+.post .back{font-family:var(--sans);font-size:14.5px;font-weight:600}
+.bl{list-style:none;margin:0;padding:0;max-width:720px}
+.bl li{padding:26px 0;border-bottom:1px solid var(--line);display:flex;flex-direction:column;gap:8px}
+.bl li:last-child{border-bottom:0}
+.bl h2{font-family:var(--serif);font-size:24px;letter-spacing:0;text-transform:none;color:var(--ink);padding:0;line-height:1.25}
+.bl h2 a{color:var(--ink);text-decoration:none}
+.bl h2 a:hover{color:var(--accent);text-decoration:underline}
+.bl p{color:var(--muted)}
+.blhead{max-width:720px;padding-block:40px 6px}
+.blhead h1{font-size:clamp(28px,4.2vw,40px);margin:8px 0 14px}
+.blhead p{font-size:18px;color:var(--muted)}
+.gu{list-style:none;margin:18px 0 28px;padding:0}
+.gu li{display:flex;gap:16px;align-items:flex-start;padding:14px 0;border-top:1px solid var(--line)}
+.gu li:first-child{border-top:0}
+.gu img{flex:none;width:84px;height:84px;object-fit:cover;object-position:50% 20%;border-radius:50%;background:var(--tint)}
+.gu h3{font-size:18px;margin:0 0 4px}
+.gu .role{font-family:var(--sans);font-size:12.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:600;margin-bottom:4px}
+.gu p{margin:0}
+.tree,.tree ul{list-style:none;margin:0;padding:0}
+.tree{margin:14px 0 30px;font-family:var(--sans);font-size:15px}
+.tree ul{margin-left:15px;padding-left:16px;border-left:1px solid var(--line)}
+.tree li{position:relative;padding:5px 0}
+.tree ul>li::before{content:"";position:absolute;left:-16px;top:21px;width:12px;border-top:1px solid var(--line)}
+.tree ul>li:last-child::after{content:"";position:absolute;left:-17px;top:22px;bottom:0;border-left:3px solid var(--paper)}
+.tree .n{display:inline-flex;align-items:center;gap:8px;vertical-align:middle}
+.tree .n img{width:32px;height:32px;border-radius:50%;object-fit:cover;object-position:50% 20%;flex:none;background:var(--tint)}
+.tree .n b{font-weight:600}
+.tree .n small{display:block;color:var(--muted);font-size:12.5px}
+.tree>li>.n img{width:44px;height:44px}
+.post .pubs{list-style:none;margin:0 0 20px;padding:0;display:flex;flex-direction:column}
+.post .pubs li{padding:10px 0;border-top:1px solid var(--line)}
+.post .pubs li:last-child{border-bottom:1px solid var(--line)}
+.post .pubs .note{display:block;font-family:var(--sans);font-size:14.5px;color:var(--muted);margin-top:4px;text-align:left}
+.post details.more{border-top:1px solid var(--line)}
+.post details.more:last-of-type{border-bottom:1px solid var(--line);margin-bottom:20px}
+.post details.more summary{cursor:pointer;font-family:var(--sans);font-size:15px;font-weight:600;color:var(--accent);padding:12px 0}
+.post details.more .pubs li:last-child{border-bottom:0}
+.post .portrait{float:right;width:210px;margin:4px 0 16px 24px}
+.post .portrait img{display:block;width:100%;height:auto;border:1px solid var(--line)}
+@media (max-width:560px){.post .portrait{float:none;width:100%;max-width:320px;margin:0 0 20px}}
+.post h2{clear:both}
+</style>
+</head>
+<body>
+<header class="mast gut">
+  <div class="wrap">
+    <a class="home" href="./" aria-label="Home"><svg viewBox="-100 -100 200 200" aria-hidden="true"><g fill="none" stroke="#7b1e2b" stroke-width="5" stroke-linejoin="round"><circle r="92"/><path d="M0 76L-65.8 -38L65.8 -38Z"/></g><circle r="9" fill="#7b1e2b"/></svg></a>
+    <div>
+      <a class="home" href="./"><div class="title"><span class="nw"><i>Śaiva-Śākta</i> Community</span></div></a>
+      <div class="sub"><i>Śāstra</i> and <i>sādhana</i> <span class="nw">· Madrid</span></div>
+    </div>
+  </div>
+</header>
+<nav class="gut" aria-label="Sections">
+  <div class="wrap">
+    <a href="./">Home</a>
+    <a href="../blog/" hreflang="es">Blog (in Spanish)</a>
+    <a href="./#join">Join</a>
+    <a class="lang" href="../acaryaji.html" hreflang="es" lang="es">Español</a>
+  </div>
+</nav>
+<main class="gut">
+  <div class="wrap">
+    <article class="post">
+      <div class="meta">Teacher</div>
+      <h1><i>Ācārya</i> Sthaneshwar Timalsina</h1>
+      <p class="intro">Principal custodian of the <i>Sarvāmnāya</i> lineage outside Nepal, scholar and founder of Vimarsha Foundation.</p>
+<figure class="portrait"><img src="../blog/img/linaje/timalsina.jpg" alt="Ācārya Sthaneshwar Timalsina"></figure>
+<p><i>Ācārya</i> Sthaneshwar Timalsina brings together two worlds that rarely meet, the traditional transmission from teacher to disciple and university scholarship, and both shape a body of work that studies Indian philosophy through its texts as well as its practice.</p>
+<p>He holds the Nirmal K. and Augustina Mattoo Endowed Chair in Classical Indic Humanities in the Department of Asian and Asian American Studies at Stony Brook University (New York). In 2019 he founded <a href="https://www.vimarshafoundation.org/">Vimarsha Foundation</a>, conceived as a global <i>gurukula</i> for the study of India’s philosophical and contemplative systems.</p>
+<h2>Traditional training</h2>
+<p>He was raised in his father’s Vedic <i>gurukula</i> in Nepal. Over fourteen years he received from Svāmī Premchetan Brahmacārī the complete transmission of the <i>Sarvāmnāya</i>, and he studied the work of Abhinavagupta with teachers in Varanasi linked to Gopīnāth Kavirāj. In 1996 he was consecrated as <i>ācārya</i> (<i>ācārya abhiṣeka</i>) and recognized as <i>Śaivācārya</i> of the Nepali <i>Sarvāmnāya</i> order. The <a href="../blog/linaje.html" hreflang="es">complete genealogy</a> of this lineage is available on our blog.</p>
+<h2>Academic career</h2>
+<p>He completed a master’s degree at Sampurnananda Sanskrit University in Varanasi (1991) and taught for several years at Nepal Sanskrit University in Kathmandu, where he launched a department devoted to the study of the <i>Āgama</i> traditions. While writing his doctoral dissertation, he taught at the University of California, Santa Barbara, and at Washington University in St. Louis.</p>
+<p>He earned his doctorate in 2005 at Martin Luther University Halle-Wittenberg (Germany) with a study of the history of <i>Advaita Vedānta</i>. That same year he joined San Diego State University, where he taught for nearly two decades in the Departments for the Study of Religions and of Philosophy, before taking up his current chair at Stony Brook.</p>
+<h2>Research</h2>
+<p>His research spans <i>Advaita Vedānta</i> and consciousness studies, the Śaiva-Śākta philosophies of the <i>Kaula</i> and <i>Krama</i> streams, Indian theories of mind (recognition, memory, imagination and emotion), contemplative visualization and visual culture, yoga studies and comparative philosophy. He is the author of four monographs and more than eighty articles and book chapters, and he also writes original works in Sanskrit.</p>
+<h2>Books</h2>
+<ul class="pubs">
+          <li><i>Tantric Visual Culture: A Cognitive Approach</i>. London: Routledge, 2015.<span class="note">A study of India’s contemplative images from the perspective of the cognitive sciences.</span></li>
+          <li><i>Language of Images: Visualization and Meaning in Tantras</i>. New York: Peter Lang, 2015.<span class="note">On meditative visualization and its meaning in the <i>Āgama</i> literature.</span></li>
+          <li><i>Consciousness in Indian Philosophy: The Advaita Doctrine of “Awareness Only”</i>. London: Routledge, 2008.<span class="note">The Advaita doctrine that consciousness alone exists.</span></li>
+          <li><i>Seeing and Appearance: A History of the Advaita Doctrine of Dṛṣṭisṛṣṭi</i>. Aachen: Shaker Verlag, 2006.<span class="note">Based on his doctoral dissertation, on the Advaita doctrine that perception creates what is perceived.</span></li>
+        </ul>
+<h2>Works in Sanskrit</h2>
+<ul class="pubs">
+          <li><i>Śivabodhaviṃśikā</i>. New York: Vimarsha Foundation, 2025.</li>
+          <li><i>Amṛtādistava</i>. San Diego: Vimarsha Foundation, 2021.</li>
+          <li><i>Saṃvartastava</i>. San Diego: Vimarsha Foundation, 2021.</li>
+          <li>His compositions also include the <i>Cāmuṇḍāśataka</i> and the <i>Tantragahvara</i>.</li>
+        </ul>
+<h2>Publications</h2>
+<details class="more">
+<summary>Articles (32)</summary>
+<ul class="pubs">
+<li>“God, Īśvara, and the Brahman: A Case for a Post-Perennial Comparative Theology,” <i>Sophia</i> 63 (2024): 401–417.</li>
+<li>“Emergence, Panpsychism, and Manifestation (<i>Abhivyakti</i>),” <i>The Journal of Hindu Studies</i> (2024).</li>
+<li>“Change: Thinking Through Sāṅkhya,” <i>Religions</i> 13 (2022): 549.</li>
+<li>“Language of Gestures: Mudrā, Mirror, and Meaning in Śākta Philosophy,” <i>Religions</i> 12 (2021): 211.</li>
+<li>“Rasāsvāda: A Comparative Approach to Emotion and the Self,” <i>Journal of Indian Philosophy and Religion</i> 26 (2021): 114–139.</li>
+<li>“Can Representation Be Transformative? Resemblance, Suggestion, and Metaphor in Tantric Meditation,” <i>Philosophy East and West</i> 71:1 (2021): 193–216.</li>
+<li>“Aham, Subjectivity, and the Ego: Re-engaging Abhinavagupta,” <i>Journal of Indian Philosophy</i> 48:4 (2020): 767–789.</li>
+<li>“Bhartṛhari and the Daoists on Paradoxical Statements,” <i>Journal of Indian Philosophy and Religion</i> 23:4 (2018): 5–20.</li>
+<li>“Puruṣavāda: A Pre-Śaṅkara Monistic Philosophy as Critiqued by Mallavādin,” <i>Journal of Indian Philosophy</i> 45:5 (2017): 939–959.</li>
+<li>“Śrīharṣa on Knowledge and Justification,” <i>Journal of Indian Philosophy</i> 45:2 (2017): 313–329.</li>
+<li>“The Monistic Śākta Philosophy in the Guhyopaniṣad,” <i>Zeitschrift für Indologie und Südasienstudien</i> 34 (2017): 247–258.</li>
+<li>“A Cognitive Approach to Tantric Language,” <i>Religions</i> 7:12 (2016).</li>
+<li>“Theatrics of Emotion: Self-deception and Self-cultivation in Abhinavagupta’s Aesthetics,” <i>Philosophy East and West</i> 66:1 (2016): 104–121.</li>
+<li>“The Dialogical Manifestation of Reality in Āgamas,” <i>Journal of Hindu Studies</i> 7:1 (2014): 6–24.</li>
+<li>“Indigenous Epistemology and Placing the Cultural Self in Crisis: New Hermeneutic Model for Cultural Studies,” <i>SERAS</i> 36 (2014): 6–29.</li>
+<li>“Text as the Metaphoric Body: Incorporation of Tripurā in Saundaryalaharī,” <i>Zeitschrift für Indologie und Südasienstudien</i> 31 (2014): 1–32.</li>
+<li>“Gauḍapāda on Imagination,” <i>Journal of Indian Philosophy</i> 41:6 (2013): 591–602.</li>
+<li>“Imagining Reality: Image and Visualization in Classical Hinduism,” <i>SERAS</i> (2013): 50–69.</li>
+<li>“Contemplating upon the Image of Bhairava: A Study of Kṣemarāja’s Bhairavānukaraṇastava,” <i>Journal of Indian Research</i> 1 (2013): 142–152.</li>
+<li>“Holographic Bodies and Metaphoric Limbs in Hindu Myths,” <i>Zeitschrift für Indologie und Südasienstudien</i> 2 (2012): 167–186.</li>
+<li>“Embodiment and Self-realisation: The Interface between Śaṅkara’s Transcendentalism and Shamanic and Tantric Experiences,” <i>Journal of Hindu Studies</i> 5:3 (2012): 1–15.</li>
+<li>“Reconstructing the Tantric Body: Elements of the Symbolism of Body in the Monistic Kaula and Trika Tantric Traditions,” <i>International Journal of Hindu Studies</i> 16:1 (2012): 57–91.</li>
+<li>“Body, Self, and Healing in Tantric Ritual Paradigm,” <i>Journal of Hindu Studies</i> 5:1 (2012): 30–52.</li>
+<li>“Materializing Space and Time in Tantric Images,” <i>Zeitschrift für Indologie und Südasienstudien</i> 28 (2011): 145–182.</li>
+<li>“Encountering the Other: Tantra in the Cross-cultural Context,” <i>Journal of Hindu Studies</i> 4:3 (2011): 274–289.</li>
+<li>“Songs of Transformation: Vernacular Josmanī Literature and the Yoga of Cosmic Awareness,” <i>International Journal of Hindu Studies</i> 14:2–3 (2010): 201–228.</li>
+<li>“The Brahman and the Word Principle (Śabda): Influence of the Philosophy of Bhartṛhari on Maṇḍana’s Brahmasiddhi,” <i>Journal of Indian Philosophy</i> 37 (2009): 189–206.</li>
+<li>“Bhartṛhari and Maṇḍana on Avidyā,” <i>Journal of Indian Philosophy</i> 37 (2009): 367–382.</li>
+<li>“Ritual, Reality, and Meaning: The Vedic Ritual of Cremating a Surrogate Body,” <i>Zeitschrift der Deutschen Morgenländischen Gesellschaft</i> 159:1 (2009): 45–69.</li>
+<li>“Cosmic Awareness and Yogic Absorption in the Nāth Literature,” <i>Studien zur Indologie und Iranistik</i> 25 (2008): 137–168.</li>
+<li>“Metaphors, Rasa, and Dhvani: Suggested Meaning in Tantric Esotericism,” <i>Method and Theory in the Study of Religion</i> 19:1–2 (2007): 134–162.</li>
+<li>“Terrifying Beauty: Interplay of Sanskritic and Vernacular Rituals of Siddhilakṣmī,” <i>International Journal of Hindu Studies</i> 10 (2006): 59–73.</li>
+</ul>
+</details>
+<details class="more">
+<summary>Book chapters (20)</summary>
+<ul class="pubs">
+<li>“Cosmic Process, Philosophy, and Soteriology in the Works of Abhinavagupta,” in <i>Oxford Handbook of Tantric Studies</i>, ed. Payne and Hayes (Oxford University Press, 2022, 177–195).</li>
+<li>“Attention, Memory, and the Imagination,” in <i>Oxford Handbook of Tantric Studies</i>, ed. Payne and Hayes (Oxford University Press, 2022).</li>
+<li>“The Phenomenology of Meditation: An Advaita Approach,” in <i>Routledge Handbook on the Philosophy of Meditation</i>, ed. Repetti (Routledge, 2022, 313–326).</li>
+<li>“Savoring Rasa: Emotion, Judgment, and Phenomenal Content,” in <i>Emotions in Classical Indian Philosophy</i>, ed. Heim, Ram-Prasad, and Tzohar (Bloomsbury, 2021, 255–276).</li>
+<li>“Reason, Dharma, and the Discovery of Faith: Insights from the Modes of Classical Hinduism,” in <i>Routledge Handbook of South Asian Religions</i>, ed. Jacobsen (Routledge, 2020).</li>
+<li>“Abhinavagupta on Śānta Rasa: The Logic of Emotional Repose,” in <i>Handbook of Logical Thought in India</i>, ed. Sarukkai (Springer, 2020).</li>
+<li>“Dialogue and Culture: Reflections on the Parameters of Cultural Dialogue,” in <i>The Cambridge Handbook of Intercultural Training</i>, ed. Landis and Bhawuk (Cambridge University Press, 2020, 658–679).</li>
+<li>“Meditation and Imagination,” in <i>The Cambridge Handbook of the Imagination</i>, ed. Abraham (Cambridge University Press, 2020, 783–795).</li>
+<li>“Embodied Experience in the Mahārthamañjarī of Maheśvarānanda,” in <i>Transformational Embodiment in Asian Religions</i>, ed. Pati and Zubko (Routledge, 2020, 128–144).</li>
+<li>“Relativism in Indian Traditions: Examining the Viewpoints,” in <i>The Routledge Handbook of the Philosophy of Relativism</i>, ed. Kusch (Routledge, 2019, 11–19).</li>
+<li>“Semantics of Nothingness: Bhartṛhari’s Philosophy of Negation,” in <i>Nothingness in Asian Philosophy</i>, ed. Liu and Berger (Routledge, 2014, 25–43).</li>
+<li>“Self, Causation, and Agency in the Advaita of Śaṅkara,” in <i>Free Will, Agency, and Selfhood in Indian Philosophy</i>, ed. Dasti and Bryant (Oxford University Press, 2014, 186–209).</li>
+<li>“The Concept of Ābhāsa in the Yogavāsiṣṭha,” in <i>Mind, Morals, and Make-Believe in the Mokṣopāya (Yogavāsiṣṭha)</i>, ed. Chapple and Chakrabarti (SUNY Press, 2014, 53–78).</li>
+<li>“Vasiṣṭha and Borges: In Quest of Enlightenment,” in <i>Mind, Morals, and Make-Believe in the Mokṣopāya (Yogavāsiṣṭha)</i>, ed. Chapple and Chakrabarti (SUNY Press, 2014, 119–140).</li>
+<li>“Linguistic and Cosmic Powers: The Concept of Śakti in the Philosophies of Bhartṛhari and Abhinavagupta,” in <i>Classical and Contemporary Issues in Indian Studies</i>, ed. Duquette and Kumar (D. K. Printworld, 2013, 211–232).</li>
+<li>“The Yoga System of the Josmanīs,” in <i>Yoga in Practice</i>, ed. White (Princeton University Press, 2012, 309–324).</li>
+<li>“Liberation and Immortality: Bhuśuṇḍa’s Yoga of Prāṇa in the Yogavāsiṣṭha,” in <i>Yoga Powers</i>, ed. Jacobsen (Brill, 2012, 303–326).</li>
+<li>“The Body of the Goddess: Eco-awareness and Embodiment in Hindu Myth and Romance,” in <i>Constant and Changing Faces of the Goddess</i>, ed. Simkhada and Hermann (2008, 273–289).</li>
+<li>“Meditating Mantras: Meaning and Visualization in Tantric Literature,” in <i>Theory and Practice of Yoga</i>, ed. Jacobsen (Brill, 2005, 213–236).</li>
+<li>“Time and Space in Tantric Art,” in <i>Nepal: Old Images, New Insights</i>, ed. Pal (Marg Publications, 2004, 20–35).</li>
+</ul>
+</details>
+<details class="more">
+<summary>Other writings</summary>
+<ul class="pubs">
+          <li>“Visualization in Hindu Practice,” <i>Oxford Research Encyclopedia of Religion</i> (2017).</li>
+          <li>“Mantra” and “Śakti,” <i>Brill’s Encyclopedia of Hinduism</i>, vol. 2, ed. Jacobsen (Brill, 2010).</li>
+          <li>“Mantra: Sound of the Infinite” and “Tantra and the West,” <i>Sutra Journal</i> 1:1–2 (2015).</li>
+          <li>Editor of the <i>Religions</i> special issues “Cognitive Science and the Study of Yoga Tantra” (2017) and “Society of Tantric Studies Conference Proceedings” (2020).</li>
+        </ul>
+</details>
+<details class="more">
+<summary>Early writings (1990–1998)</summary>
+<p>Between 1990 and 1998 he published his first works on <i>Krama</i>, <i>Śrīvidyā</i>, ritual and <i>Advaita</i> in Sanskrit and Nepali journals in Kathmandu and Varanasi.</p>
+<ul class="pubs">
+          <li>“Sakalāgamamantravidyāvatārakā pañcabrahmamantrāḥ,” <i>Maryādā</i> (1998): 26–37.</li>
+          <li>“Bhairavādvaitavāda,” <i>Parimārjana</i> 5:7 (1998): 12–16.</li>
+          <li>“Foundation of Dṛṣṭisṛṣṭivāda,” <i>Ṛtambharā</i> 2:3 (1997): 114–120.</li>
+          <li>“Mahātripurasundarīcarcā,” <i>Vaidyanātha Kṣetra</i> 4:4 (1996): 23–50.</li>
+          <li>“Pūjā-rahasya,” <i>Paśupati Kṣetra</i> 2:6 (1995): 8–13, and 3:7 (1996): 19–22.</li>
+          <li>“Ātma-pūjā,” <i>Paśupati Kṣetra</i> 2:1 (1995): 21–25.</li>
+          <li>“Krama-vimarśa,” <i>Aruṇodaya</i> 26:1–2 (1990): 1–18.</li>
+        </ul>
+</details>
+      <div class="box">
+        <h2>Sources</h2>
+        <ul >
+          <li><a href="https://www.vimarshafoundation.org/">Vimarsha Foundation</a></li>
+          <li><a href="https://www.vimarshafoundation.org/writings">Complete list of publications</a> (Vimarsha Foundation)</li>
+          <li><a href="https://stonybrook.edu/asian-american/people/timalsina.html">Stony Brook University profile</a></li>
+        </ul>
+        <p>Information compiled from Vimarsha Foundation, Stony Brook University and San Diego State University.</p>
+      </div>
+      <p class="box back"><a href="./">← Back to home</a></p>
+    </article>
+  </div>
+</main>
+<footer class="gut">
+  <div class="wrap">
+    <span>Content licensed under <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 (CC BY 4.0)</a>. Original sources retain their own rights.</span>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="De dónde viene el nombre Sarvāmnāya, cómo se clasificaban las corrientes del tantra Kaula y qué lugar ocupan en ellas los textos y la transmisión.">
+<title>Qué es la tradición Sarvāmnāya · Comunidad Śaiva-Śākta</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Source+Sans+3:wght@400;600&family=Tiro+Devanagari+Sanskrit&display=swap">
+<style>
+/* Layout: an academic department page; masthead with seal and nav, then label-left / content-right sections and a citation list */
+:root{
+  --paper:#ffffff; --tint:#f6f3ef; --ink:#1d1c1f; --muted:#56535a; --accent:#7b1e2b; --line:#ddd7cf;
+  --serif:"Source Serif 4","Iowan Old Style",Georgia,"Times New Roman",serif;
+  --sans:"Source Sans 3","Segoe UI",system-ui,sans-serif;
+  --dev:"Tiro Devanagari Sanskrit","Noto Serif Devanagari","Kohinoor Devanagari",serif;
+  color-scheme:light;
+}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{background:var(--paper);color:var(--ink);font-family:var(--serif);font-size:17px;line-height:1.65;border-top:5px solid var(--accent)}
+.gut{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.wrap{max-width:980px;margin:0 auto}
+.mast{border-bottom:1px solid var(--line)}
+.mast .wrap{display:flex;align-items:center;gap:18px;padding-block:26px 22px}
+.mast svg{width:58px;height:58px;flex:none}
+.mast .kicker{font-family:var(--sans);font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);font-weight:600}
+h1{margin:2px 0 0;font-weight:600;font-size:clamp(22px,2.9vw,32px);line-height:1.2;text-wrap:balance;max-width:none}
+h1 .nw,.sub .nw{white-space:nowrap}
+.mast .sub{font-family:var(--sans);font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-weight:600;margin-top:6px}
+@media (max-width:560px){h1 .nw{white-space:normal}}
+nav{border-bottom:1px solid var(--line);background:var(--tint)}
+nav .wrap{display:flex;flex-wrap:wrap;gap:4px 26px;padding-block:10px}
+nav a{font-family:var(--sans);font-size:14px;font-weight:600;color:var(--ink);text-decoration:none;padding:4px 0;border-bottom:2px solid transparent}
+nav a:hover{border-bottom-color:var(--accent);color:var(--accent)}
+nav a.lang{margin-left:auto;font-weight:500;color:var(--muted)}
+main .wrap{padding-block:12px 64px}
+section{display:grid;grid-template-columns:200px minmax(0,1fr);gap:24px;padding-block:34px;border-bottom:1px solid var(--line);scroll-margin-top:12px}
+section:last-of-type{border-bottom:0}
+@media (max-width:720px){section{grid-template-columns:minmax(0,1fr);gap:10px;padding-block:26px}}
+h2{margin:0;font-family:var(--sans);font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:600;padding-top:5px}
+.body{display:flex;flex-direction:column;gap:14px;min-width:0}
+p{margin:0;max-width:68ch}
+.lead{font-size:20px;line-height:1.55}
+.acts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;border:1px solid var(--line)}
+@media (max-width:720px){.acts{grid-template-columns:minmax(0,1fr)}}
+.act{padding:18px;display:flex;flex-direction:column;gap:6px;min-width:0}
+.act+.act{border-left:1px solid var(--line)}
+@media (max-width:720px){.act+.act{border-left:0;border-top:1px solid var(--line)}}
+.act h3{margin:0;font-size:18px;font-weight:600}
+.act p{font-size:15.5px;color:var(--muted)}
+.lines{margin:0;display:grid;grid-template-columns:220px minmax(0,1fr);border-top:1px solid var(--line)}
+.lines dt,.lines dd{margin:0;padding:12px 0;border-bottom:1px solid var(--line)}
+.lines dt{font-weight:600;padding-right:16px}
+.lines dd{color:var(--muted)}
+.lines dt:last-of-type,.lines dd:last-of-type{border-bottom:0}
+.lin{display:block}
+.lin .side > img{width:150px;height:150px;object-fit:cover;display:block;border:1px solid var(--line)}
+.lin .side{display:flex;flex-direction:column;gap:14px;min-width:0}
+.lin .txt{display:flex;flex-direction:column;gap:14px;min-width:0}
+@media (max-width:640px){.lin{grid-template-columns:minmax(0,1fr);gap:16px}.lin .side > img{width:100%;max-width:360px;height:auto;aspect-ratio:1/1}}
+@media (max-width:560px){.lines{grid-template-columns:minmax(0,1fr)}.lines dt{border-bottom:0;padding-bottom:0}.lines dd{padding-top:2px}}
+.act .st{font-family:var(--sans);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:600;margin-top:auto}
+h4{margin:6px 0 0;font-family:var(--sans);font-size:14px;font-weight:600;color:var(--muted);letter-spacing:.04em}
+a{color:var(--accent);text-decoration-thickness:1px;text-underline-offset:3px}
+a:hover{color:#5a1520}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.texts{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.texts li{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;padding:10px 0;border-top:1px solid var(--line)}
+.texts li:last-child{border-bottom:1px solid var(--line)}
+.texts i{font-style:italic}
+.texts span{font-family:var(--dev);color:var(--muted)}
+.mat{border:1px solid var(--line);padding:22px;display:flex;flex-direction:column;gap:12px;background:var(--paper)}
+.mat h3{margin:0;font-size:20px;font-weight:600;line-height:1.3}
+.mat-meta{font-family:var(--sans);font-size:13.5px;color:var(--muted);margin-top:4px}
+.dl{display:flex;flex-wrap:wrap;gap:10px;margin-top:4px}
+.btn{font-family:var(--sans);font-size:14.5px;font-weight:600;text-decoration:none;padding:10px 16px;min-height:44px;display:inline-flex;align-items:center;border:1px solid var(--accent);background:var(--accent);color:#fff;border-radius:2px}
+.btn:hover{background:#5a1520;color:#fff}
+.btn.ghost{background:transparent;color:var(--accent)}
+.btn.ghost:hover{background:var(--tint);color:var(--accent)}
+.dl-msg{font-family:var(--sans);font-size:13.5px;color:var(--muted);min-height:1.2em}
+.ph{color:var(--accent);border-bottom:1px dashed var(--accent)}
+main p,main dd,main li,main blockquote{text-align:justify;hyphens:auto;-webkit-hyphens:auto}
+footer{border-top:1px solid var(--line);background:var(--tint)}
+footer .wrap{padding-block:22px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 24px;font-family:var(--sans);font-size:13.5px;color:var(--muted)}
+
+.mast a.home{color:inherit;text-decoration:none}
+.mast .title{margin:2px 0 0;font-weight:600;font-size:clamp(22px,2.9vw,32px);line-height:1.2;text-wrap:balance}
+.mast .title .nw{white-space:nowrap}
+@media (max-width:560px){.mast .title .nw{white-space:normal}}
+.post{max-width:700px;padding-block:40px 24px}
+.post .meta,.bl .meta{font-family:var(--sans);font-size:12.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:600}
+.post h1{font-size:clamp(28px,4.2vw,40px);line-height:1.15;margin:10px 0 22px;text-wrap:balance}
+.post .intro{font-size:19px;line-height:1.55;color:var(--muted);margin-bottom:26px}
+.post h2{font-family:var(--serif);font-size:23px;letter-spacing:0;text-transform:none;color:var(--ink);font-weight:600;padding-top:0;margin:34px 0 12px}
+.post p{margin:0 0 16px}
+.post blockquote{margin:24px 0;padding:2px 0 2px 20px;border-left:2px solid var(--accent);font-size:20px;line-height:1.5}
+.post .lines{margin:6px 0 20px}
+.post .box{margin-top:40px;padding-top:22px;border-top:1px solid var(--line);display:flex;flex-direction:column;gap:12px}
+.post .box h2{margin:0;font-family:var(--sans);font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+.post .box p,.post .box li{font-family:var(--sans);font-size:15px;color:var(--muted);margin:0}
+.post .box ul{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:6px}
+.post .gl{display:grid;grid-template-columns:minmax(0,max-content) minmax(0,1fr);gap:4px 18px;font-family:var(--sans);font-size:15px;margin:0}
+.post .gl dt{font-family:var(--serif);font-style:italic}
+.post .gl dd{margin:0;color:var(--muted)}
+.post .pfig{margin:0 0 30px}
+.post .pfig img{display:block;width:100%;height:auto;max-height:560px;object-fit:contain;background:var(--tint);border:1px solid var(--line)}
+.post .pfig figcaption{font-family:var(--sans);font-size:13.5px;color:var(--muted);margin-top:8px;line-height:1.45}
+.post .back{font-family:var(--sans);font-size:14.5px;font-weight:600}
+.bl{list-style:none;margin:0;padding:0;max-width:720px}
+.bl li{padding:26px 0;border-bottom:1px solid var(--line);display:flex;flex-direction:column;gap:8px}
+.bl li:last-child{border-bottom:0}
+.bl h2{font-family:var(--serif);font-size:24px;letter-spacing:0;text-transform:none;color:var(--ink);padding:0;line-height:1.25}
+.bl h2 a{color:var(--ink);text-decoration:none}
+.bl h2 a:hover{color:var(--accent);text-decoration:underline}
+.bl p{color:var(--muted)}
+.blhead{max-width:720px;padding-block:40px 6px}
+.blhead h1{font-size:clamp(28px,4.2vw,40px);margin:8px 0 14px}
+.blhead p{font-size:18px;color:var(--muted)}
+</style>
+</head>
+<body>
+<header class="mast gut">
+  <div class="wrap">
+    <a class="home" href="../" aria-label="Inicio"><svg viewBox="-100 -100 200 200" aria-hidden="true"><g fill="none" stroke="#7b1e2b" stroke-width="5" stroke-linejoin="round"><circle r="92"/><path d="M0 76L-65.8 -38L65.8 -38Z"/></g><circle r="9" fill="#7b1e2b"/></svg></a>
+    <div>
+      <a class="home" href="../"><div class="title"><span class="nw">Comunidad <i>Śaiva-Śākta</i></span></div></a>
+      <div class="sub"><i>Śāstra</i> y <i>sādhana</i> <span class="nw">· Madrid</span></div>
+    </div>
+  </div>
+</header>
+<nav class="gut" aria-label="Secciones">
+  <div class="wrap">
+    <a href="../">Inicio</a>
+    <a href="../blog/">Blog</a>
+    <a href="../#participar">Participar</a>
+  </div>
+</nav>
+<main class="gut">
+  <div class="wrap">
+    <article class="post">
+      <div class="meta">Historia</div>
+      <h1>Qué es la tradición <i>Sarvāmnāya</i></h1>
+      <p class="intro">De dónde viene el nombre <i>Sarvāmnāya</i>, cómo se clasificaban las corrientes del tantra <i>Kaula</i> y qué lugar ocupan en ellas los textos y la transmisión.</p>
+      <figure class="pfig"><img src="img/siddhilaksmi.jpg" alt="Escultura en bronce de Siddhilakṣmī, diosa de múltiples brazos en postura de danza" loading="lazy"><figcaption><i>Siddhilakṣmī</i>, una de las divinidades centrales del tantra nepalí. Bronce, Nepal. Imagen: Vimarsha Foundation.</figcaption></figure>
+<p>El nombre <i>Sarvāmnāya</i> se compone de dos palabras sánscritas, <i>sarva</i>, “todo”, y <i>āmnāya</i>, “transmisión” o “tradición recibida”. Podría traducirse como “la tradición de todas las transmisiones”. El nombre describe bien lo que es, un sistema que reúne varias corrientes del tantra <i>Śaiva-Śākta</i> que en otros contextos se transmiten por separado.</p>
+<h2>Las cuatro transmisiones del <i>Kaula</i></h2>
+<p>Las fuentes tántricas medievales clasifican las corrientes <i>Kaula</i> en transmisiones (<i>āmnāya</i>) asociadas a los puntos cardinales. Los estudios de Alexis Sanderson y Mark Dyczkowski han reconstruido este esquema a partir de los textos conservados, en buena parte en manuscritos nepalíes.</p>
+<dl class="lines">
+<dt><i>Trika</i></dt><dd>Vinculado a la transmisión oriental (<i>pūrvāmnāya</i>), es la corriente de Abhinavagupta, impropiamente llamada “shivaísmo de Cachemira”.</dd>
+<dt><i>Kālīkrama</i></dt><dd>La transmisión septentrional (<i>uttarāmnāya</i>), centrada en <i>Kālī</i> y en la sucesión (<i>krama</i>) de los ciclos de la conciencia.</dd>
+<dt><i>Kubjikā</i></dt><dd>La transmisión occidental (<i>paścimāmnāya</i>), la de la diosa <i>Kubjikā</i>, muy viva todavía en el valle de Katmandú.</dd>
+<dt><i>Śrīvidyā</i></dt><dd>La transmisión meridional (<i>dakṣiṇāmnāya</i>), centrada en <i>Tripurasundarī</i> y en el <i>śrīcakra</i>.</dd>
+</dl>
+<p>Una tradición que se llama “de todas las transmisiones” se presenta, por tanto, como heredera de este conjunto completo. Por eso el <i>Trika</i>, que es la puerta de entrada más conocida en Occidente, aparece aquí como una parte de un mapa más amplio.</p>
+<h2>Nepal como lugar de conservación</h2>
+<p>Mientras muchas de estas corrientes desaparecieron o se transformaron en la India, el valle de Katmandú conservó textos, rituales y formas de transmisión que permiten estudiarlas como tradiciones vivas. Esto convierte a Nepal en un lugar privilegiado tanto para la filología como para el estudio de la práctica.</p>
+<h2>Textos y transmisión</h2>
+<p>Como en otras corrientes tántricas, el conocimiento se concibe aquí como algo que se recibe de maestro a discípulo y no solo a través de los libros. Los textos de autoridad (<i>śāstra</i>) no se leen como documentos aislados, sino dentro de una cadena de comentarios y de una práctica que los interpreta. Estudio y práctica aparecen así como dos caras de una misma transmisión.</p>
+<p>Vimarsha Foundation, a la que está vinculada nuestra comunidad, recoge en su web la genealogía de maestros de esta tradición, que presentamos en castellano en <a href="linaje.html">esta entrada</a>.</p>
+<h2>Una vía en medio del mundo</h2>
+<p>El <i>Sarvāmnāya</i> es, además, una vía que se recorre en medio de la vida familiar y social, sin exigir la renuncia (<i>saṃnyāsa</i>), y que no se funda en una moral de prohibiciones, sino en los textos (<i>śāstra</i>), el maestro (<i>guru</i>), el razonamiento correcto (<i>sattarka</i>) y la propia experiencia. Admite una pluralidad de vías (<i>upāya</i>) según la disposición de cada persona y entiende las demás escuelas como grados de una misma verdad.</p>
+      <div class="box">
+        <h2>Términos clave</h2>
+        <dl class="gl"><dt>sarva</dt><dd>todo</dd><dt>āmnāya</dt><dd>transmisión, tradición recibida</dd><dt>pūrva · uttara · paścima · dakṣiṇa</dt><dd>oriental · septentrional · occidental · meridional</dd><dt>krama</dt><dd>sucesión</dd><dt>śāstra</dt><dd>texto de autoridad</dd><dt>saṃnyāsa</dt><dd>renuncia</dd><dt>sattarka</dt><dd>razonamiento correcto</dd><dt>upāya</dt><dd>vía, medio</dd></dl>
+      </div>
+      <div class="box">
+        <h2>Fuentes</h2>
+        <ul><li>Sanderson, A. (1988). Śaivism and the Tantric Traditions. En S. Sutherland et al. (eds.), <i>The World’s Religions</i> (pp. 660–704). Londres, Routledge.</li><li>Dyczkowski, M. S. G. (1988). <i>The Canon of the Śaivāgama and the Kubjikā Tantras of the Western Kaula Tradition</i>. Albany, SUNY Press.</li><li>Vimarsha Foundation. <i>Our Lineage</i>. <a href="https://www.vimarshafoundation.org/lineage">https://www.vimarshafoundation.org/lineage</a></li></ul>
+        <p>Esta entrada explica y simplifica en castellano las ideas de las fuentes indicadas. Las citas son traducciones nuestras.</p>
+      </div>
+      <p class="box back"><a href="./">← Volver al blog</a></p>
+    </article>
+  </div>
+</main>
+<footer class="gut">
+  <div class="wrap">
+    <span>Contenidos con licencia <a href="https://creativecommons.org/licenses/by/4.0/deed.es">Creative Commons Atribución 4.0 (CC BY 4.0)</a>. Las fuentes originales conservan sus propios derechos.</span>
+  </div>
+</footer>
+</body>
+</html>
