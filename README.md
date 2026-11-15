@@ -1,6 +1,6 @@
-# Comunidad Śaiva-Śākta
+# Círculo de Estudios Śaiva-Śākta
 
-Web de la Comunidad Śaiva-Śākta.
+Web de la Círculo de Estudios Śaiva-Śākta.
 
 Sitio estático (un único `index.html`), publicado con GitHub Pages.
 
