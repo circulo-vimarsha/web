@@ -4,4 +4,4 @@ Web de la Círculo de Estudios Śaiva-Śākta.
 
 Sitio estático (un único `index.html`), publicado con GitHub Pages.
 
-Contenidos con licencia [Creative Commons Atribución 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.es).
+© 2026 Círculo de Estudios Śaiva-Śākta. Las fuentes originales conservan sus propios derechos.
