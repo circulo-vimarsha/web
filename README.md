@@ -1,6 +1,6 @@
 # Vimarsha Foundation España
 
-Web de Vimarsha Foundation España (tradición *Sarvāmnāya*), con su comunidad local **Vimarsha Kula Madrid** y el Círculo de Estudios de Filosofía *Śaiva-Śākta*.
+Web de Vimarsha Foundation España (tradición *Sarvāmnāya*), con su comunidad local **Vimarsha Kula Madrid**.
 
 Sitio estático publicado con GitHub Pages.
 
