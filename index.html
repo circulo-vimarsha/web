@@ -125,6 +125,15 @@ footer .wrap{flex-direction:column;align-items:center;gap:8px}
 .pfig figcaption{max-width:none;text-align:left}
 .post .pfig{margin:8px 0 24px}
 .post .pfig img{max-height:none;aspect-ratio:4/3;object-fit:cover}
+
+/* alineación homogénea: una sola columna, mismo ancho para cabecera, texto e imágenes */
+.wrap{max-width:760px}
+section{grid-template-columns:minmax(0,1fr);gap:12px}
+.post{max-width:none}
+p{max-width:none}
+.blhead,.bl{max-width:none}
+.post .portrait{float:none;width:100%;max-width:none;margin:8px 0 24px}
+.post .portrait img{width:100%;aspect-ratio:4/3;object-fit:cover;object-position:50% 18%}
 </style>
 </head>
 <body>
@@ -174,14 +183,10 @@ footer .wrap{flex-direction:column;align-items:center;gap:8px}
     <section id="tradicion" aria-labelledby="h-colab">
       <h2 id="h-colab">Tradición</h2>
       <div class="body">
-        <div class="lin">
-          <div class="side"><img src="blog/img/linaje/timalsina.jpg?v=2" alt="Ācārya Sthaneshwar Timalsina" loading="lazy"></div>
-          <div class="txt">
+        <figure class="pfig"><img style="object-position:50% 18%" src="blog/img/linaje/timalsina-retrato.jpg" alt="Ācārya Sthaneshwar Timalsina" loading="lazy"></figure>
         <p>En la tradición <i>Śaiva-Śākta</i>, el conocimiento se transmite de maestro a discípulo, dentro de un linaje. Nuestra tradición (<i>sampradāya</i>) se denomina <a href="blog/sarvamnaya.html"><i>Sarvāmnāya</i></a>, e integra en un único sistema grandes corrientes como <i>Trika</i>, <i>Kālīkrama</i>, <i>Kubjikā</i> y <i>Śrīvidyā</i>. Esta síntesis se ha preservado en Nepal, especialmente en el valle de Katmandú, al menos desde el siglo XII, y sus enseñanzas se han transmitido sin interrupción hasta nuestros días.</p>
         <p>Fuera de Nepal, el linaje <i>Sarvāmnāya</i> tiene hoy en <strong><a href="acaryaji.html"><i>Ācārya</i> Sthaneshwar Timalsina</a></strong> a su principal depositario. Formado desde la infancia en el <i>gurukula</i> védico de su padre y consagrado como <i>ācārya</i> en 1996, une la transmisión tradicional con una destacada carrera universitaria, hoy como titular de la cátedra de Humanidades Índicas Clásicas de la Stony Brook University (Nueva York).</p>
         <p>En 2019 fundó <a href="https://www.vimarshafoundation.org/">Vimarsha Foundation</a>, concebida como un <i>gurukula</i> global para el estudio de los sistemas filosóficos clásicos de la India. <strong>Vimarsha España</strong> nace en el seno de este <i>gurukula</i> para reunir en España a personas iniciadas en el <i>sampradāya</i>, así como a quienes, sin estar iniciadas, quieran acercarse a la tradición. En nuestro blog presentamos la <a href="blog/linaje.html">genealogía completa</a> del linaje.</p>
-          </div>
-        </div>
         <figure class="gurus"><ul><li><img src="blog/img/linaje/tanka-prasad.jpg" alt="" loading="lazy"><span>Paṇḍita Tanka Prasad Timalsina</span></li><li><img src="blog/img/linaje/premchetan.jpg" alt="" loading="lazy"><span>Svāmī Premchetan Brahmacārī</span></li><li><img src="blog/img/linaje/shankara-caitanya.jpg" alt="" style="object-position:68% 20%" loading="lazy"><span>Śaṅkara Caitanya Bhāratī</span></li><li><img src="blog/img/linaje/khaptad-baba.jpg" alt="" loading="lazy"><span>Khaptaḍa Bābā</span></li><li><img src="blog/img/linaje/ramananda-giri.jpg" alt="" style="object-position:58% 22%" loading="lazy"><span>Rāmānanda Giri</span></li><li><img src="blog/img/linaje/kshipranath.jpg" alt="" style="object-position:50% 40%" loading="lazy"><span>Yogī Kṣiprānāth</span></li></ul><figcaption><a href="blog/linaje.html">Ver la genealogía completa</a>.</figcaption></figure>
       </div>
     </section>

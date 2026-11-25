@@ -131,6 +131,15 @@ footer .wrap{flex-direction:column;align-items:center;gap:8px}
 .pfig figcaption{max-width:none;text-align:left}
 .post .pfig{margin:8px 0 24px}
 .post .pfig img{max-height:none;aspect-ratio:4/3;object-fit:cover}
+
+/* alineación homogénea: una sola columna, mismo ancho para cabecera, texto e imágenes */
+.wrap{max-width:760px}
+section{grid-template-columns:minmax(0,1fr);gap:12px}
+.post{max-width:none}
+p{max-width:none}
+.blhead,.bl{max-width:none}
+.post .portrait{float:none;width:100%;max-width:none;margin:8px 0 24px}
+.post .portrait img{width:100%;aspect-ratio:4/3;object-fit:cover;object-position:50% 18%}
 </style>
 </head>
 <body>
