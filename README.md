@@ -1,7 +1,7 @@
-# Círculo de Estudios Śaiva-Śākta
+# Vimarsha Kula Madrid
 
-Web de la Círculo de Estudios Śaiva-Śākta.
+Web del Vimarsha *Kula* Madrid, comunidad local de estudio y práctica de Vimarsha Foundation (tradición *Sarvāmnāya*).
 
-Sitio estático (un único `index.html`), publicado con GitHub Pages.
+Sitio estático publicado con GitHub Pages.
 
-© 2026 Círculo de Estudios Śaiva-Śākta. Las fuentes originales conservan sus propios derechos.
+© 2026 Vimarsha Kula Madrid. Las fuentes originales conservan sus propios derechos.
