@@ -139,7 +139,7 @@ footer .wrap{padding-block:22px;display:flex;flex-wrap:wrap;justify-content:spac
 .tree .n small{display:block;color:var(--muted);font-size:12.5px}
 .tree>li>.n img{width:44px;height:44px}
 .deva{font-family:"Tiro Devanagari Sanskrit","Noto Serif Devanagari",serif;font-weight:400}
-.mast .sub.deva{font-weight:400;letter-spacing:0;text-transform:none;font-size:19px;margin-top:4px}
+.mast .sub.deva{font-weight:400;letter-spacing:0;text-transform:none;font-size:19px;margin-top:2px;white-space:nowrap;display:inline-block;line-height:1.25}
 </style>
 </head>
 <body>
@@ -243,5 +243,21 @@ footer .wrap{padding-block:22px;display:flex;flex-wrap:wrap;justify-content:spac
     <span>© 2026 <strong>Vimarsha España</strong>. Las fuentes originales conservan sus propios derechos.</span>
   </div>
 </footer>
+<script>
+(function(){
+  function fit(){
+    var t=document.querySelector('.mast .nw'), m=document.querySelector('.mast .sub.deva');
+    if(!t||!m) return;
+    m.style.fontSize='20px';
+    var w=t.getBoundingClientRect().width, mw=m.scrollWidth;
+    if(w&&mw) m.style.fontSize=(20*w/mw)+'px';
+    var l=document.querySelector('.mast img.logo'), box=m.parentElement;
+    if(l&&box) l.style.height=box.getBoundingClientRect().height+'px';
+  }
+  fit();
+  if(document.fonts&&document.fonts.ready) document.fonts.ready.then(fit);
+  window.addEventListener('resize',fit);
+})();
+</script>
 </body>
 </html>
