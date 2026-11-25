@@ -1,6 +1,6 @@
 # Vimarsha España
 
-Web de Vimarsha España (tradición *Sarvāmnāya*), con su comunidad local **Vimarsha Kula Madrid**.
+Web de Vimarsha España (tradición *Sarvāmnāya*), con su comunidad local **Vimarsha Kula**.
 
 Sitio estático publicado con GitHub Pages.
 
