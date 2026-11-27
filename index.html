@@ -196,8 +196,20 @@ p{max-width:none}
  "email": "contacto@vimarsha.es"
 }
 </script>
+<link rel="preload" as="image" href="blog/img/splash-vimarsha-madrid.jpg">
+<script>(function(){var h=document.documentElement;try{if(sessionStorage.getItem('vsplash'))return}catch(e){}h.classList.add('splash-on')})();</script>
+<style>
+#splash{display:none}
+.splash-on #splash{display:flex;position:fixed;inset:0;z-index:9999;background:#6e1a26;align-items:center;justify-content:center;cursor:pointer;transition:opacity .8s ease}
+.splash-on #splash img{max-width:94vw;max-height:94vh;width:auto;height:auto;object-fit:contain}
+html.splash-on body{overflow:hidden}
+#splash.out{opacity:0}
+@media (prefers-reduced-motion:reduce){#splash{transition:none}}
+</style>
 </head>
 <body>
+<div id="splash" aria-hidden="true"><img src="blog/img/splash-vimarsha-madrid.jpg" alt=""></div>
+<script>(function(){var h=document.documentElement;if(!h.classList.contains('splash-on'))return;var s=document.getElementById('splash'),img=s.querySelector('img'),done=false;function end(){if(done)return;done=true;try{sessionStorage.setItem('vsplash','1')}catch(e){}s.classList.add('out');setTimeout(function(){h.classList.remove('splash-on');s.remove()},800)}function go(){setTimeout(end,2500)}if(img.complete)go();else{img.addEventListener('load',go);img.addEventListener('error',end)}s.addEventListener('click',end);setTimeout(end,7000)})();</script>
 <header class="mast gut">
   <div class="wrap">
     <img class="logo" src="blog/img/logo.png" alt="Logotipo de Vimarsha España">
